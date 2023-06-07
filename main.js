@@ -1,4 +1,7 @@
-//import './style.css'
+import './style.css';
+// export default defineConfig({
+//     assetsInclude: ['**/*.gltf'],
+// })
 
 //app function
 const app = () => {
