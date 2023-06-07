@@ -180,7 +180,7 @@ const app = ()=>{
             link_container.classList.add("link-container-height");
         }
     })
-    console.log(clBtn)
+    //console.log(clBtn)
 
     // let closeBtn = document.getElementById('close-btn')
     // let nav = document.getElementById('nav')
