@@ -17,17 +17,17 @@ const app = () => {
 
     //Gallery start
     const gallery_images = document.querySelector(".gallery-images");
-
+    
     const images = [
-        "../../img/fd1.jpg",
-        "../../img/fd2.jpg",
-        "../../img/fd3.jpg",
-        "../../img/fd4.jpg",
-        "../../img/fd5.jpg",
-        "../../img/fd6.jpg",
-        "../../img/fd7.jpg",
-        "../../img/g-1.jpg",
-        "../../img/g-2.jpg",
+        "./img/fd1.jpg",
+        "./img/fd2.jpg",
+        "./img/fd3.jpg",
+        "./img/fd4.jpg",
+        "./img/fd5.jpg",
+        "./img/fd6.jpg",
+        "./img/fd7.jpg",
+        "./img/g-1.jpg",
+        "./img/g-2.jpg",
     ]
     images.map((singleImg) => {
         const img = document.createElement("img");
