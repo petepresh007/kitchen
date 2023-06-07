@@ -69,8 +69,8 @@ const app = () => {
     const specialtyArray = [
         {
             id: 1,
-            mainImage: "../../img/s-img-1.jpg",
-            pngImg: "../../img/s-1.png",
+            mainImage: "./img/s-img-1.jpg",
+            pngImg: "./img/s-1.png",
             name: "Taste the greatness",
             desc: `
         Lorem ipsum dolor sit, amet consectetur adipisicing elit. 
@@ -80,8 +80,8 @@ const app = () => {
         },
         {
             id: 2,
-            mainImage: "../../img/s-img-2.jpg",
-            pngImg: "../../img/s-2.png",
+            mainImage: "./img/s-img-2.jpg",
+            pngImg: "./img/s-2.png",
             name: "Pizza",
             desc: `
         Lorem ipsum dolor sit, amet consectetur adipisicing elit. 
@@ -91,8 +91,8 @@ const app = () => {
         },
         {
             id: 3,
-            mainImage: "../../img/s-img-3.jpg",
-            pngImg: "../../img/s-3.png",
+            mainImage: "./img/s-img-3.jpg",
+            pngImg: "./img/s-3.png",
             name: "Cakes",
             desc: `
         Lorem ipsum dolor sit, amet consectetur adipisicing elit. 
@@ -102,8 +102,8 @@ const app = () => {
         },
         {
             id: 4,
-            mainImage: "../../img/s-img-4.jpg",
-            pngImg: "../../img/s-4.png",
+            mainImage: "./img/s-img-4.jpg",
+            pngImg: "./img/s-4.png",
             name: "Drinks",
             desc: `
         Lorem ipsum dolor sit, amet consectetur adipisicing elit. 
@@ -113,8 +113,8 @@ const app = () => {
         },
         {
             id: 5,
-            mainImage: "../../img/s-img-5.jpg",
-            pngImg: "../../img/s-5.png",
+            mainImage: "./img/s-img-5.jpg",
+            pngImg: "./img/s-5.png",
             name: "Sweets",
             desc: `
         Lorem ipsum dolor sit, amet consectetur adipisicing elit. 
@@ -124,8 +124,8 @@ const app = () => {
         },
         {
             id: 6,
-            mainImage: "../../img/s-img-6.jpg",
-            pngImg: "../../img/s-6.png",
+            mainImage: "./img/s-img-6.jpg",
+            pngImg: "./img/s-6.png",
             name: "Breakfast",
             desc: `
         Lorem ipsum dolor sit, amet consectetur adipisicing elit. 
