@@ -1,0 +1,496 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: 'Poppins', sans-serif;
+  transition: all .5s linear;
+  text-transform: capitalize;
+  background: #eeeeee;
+  color: #999666;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 32px;
+  scroll-behavior: smooth;
+  scroll-padding-top: 5rem;
+}
+
+/* Navbar  start*/
+ul {
+  list-style: none;
+}
+
+ul li {
+  margin: 0.2rem 0.4rem
+}
+
+ul li a {
+  text-decoration: none;
+  color: #aaa666;
+  font-size: 0.5rem;
+}
+
+header {
+  box-shadow: 3px 3px 3px gray;
+  background-color: white;
+  font-size: 0.4rem;
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 1;
+}
+
+h3 span {
+  color: red;
+}
+
+.img-logo {
+  margin: 0.3rem 1rem;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.nav-btn {
+  border: none;
+  font-size: 0.7rem;
+  background: none;
+  color: #aaa666;
+  cursor: pointer;
+}
+
+.nav-btn:hover {
+  transform: rotate(90deg);
+}
+
+.link-container {
+  height: 0;
+  overflow: hidden;
+  /* margin: 1rem 1rem; */
+  font-weight: bolder;
+  font-size: 90%;
+  display: flex;
+  justify-content: space-between;
+}
+
+ul li a {
+  transition: all .2s linear;
+}
+
+ul li a:hover {
+  padding-left: 0.5rem;
+}
+
+.link-container-height {
+  height: 100%;
+  background-color: #eee;
+  box-shadow: 3px 3px 3px gray;
+  width: 100%;
+  position: fixed;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  z-index: 0;
+}
+
+/* ...........Navbar End................... */
+
+/* .................home start .................. */
+.container {
+  margin: 0.3rem 0.3rem;
+}
+
+.home {
+  margin-top: 1.6rem;
+  font-size: 0.35rem;
+  line-height: 0.8rem;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.5rem;
+  flex-direction: column-reverse;
+  color: black;
+  box-shadow: 3px 3px 3px gray;
+  background: white;
+  border-radius: 0.3rem;
+  padding: 0.5rem;
+}
+
+.content h4 {
+  color: black;
+}
+
+.btn {
+  display: inline-block;
+  text-decoration: none;
+  color: white;
+  border: 1px solid black;
+  padding: 0.1rem 0.1rem;
+  background: gray;
+  border: none;
+}
+
+.btn:hover {
+  color: black;
+}
+
+/* .btn{
+    display: inline-block;
+    padding: 3px 3px;
+    border: 1px solid red;
+    color: red;
+    cursor: pointer;
+    font-size: 0.3rem;
+    text-decoration: none;
+    border-radius: 0.1rem;
+    position: relative;
+    overflow: hidden;
+    background-color: white;
+    z-index: 0;
+    margin-top: 0.3rem;
+}
+.btn::before{
+    content: '';
+    position: absolute;
+    top: 0; right: 0;
+    width: 0;
+    height: 100%;
+    background-color: #999666;
+    transition: .3s linear;
+    z-index: -1;
+}
+.btn:hover::before{
+    width: 100%;
+    left: 0;
+} */
+/* ------------------home - end ------------ */
+.gallery {
+  /* margin-top: 0.5rem; */
+  font-size: 0.35rem;
+  color: black;
+}
+
+.gallery img {
+  width: 100%;
+  border-radius: 0.3rem;
+  margin-top: 0;
+  box-shadow: 3px 3px 3px gray;
+}
+
+.gallery h4 {
+  margin: 0.1rem 0;
+  font-size: 0.35rem;
+}
+
+/*-------------------------------Specialty--------------*/
+
+.specialty {
+  font-size: 0.4rem;
+  color: black;
+}
+
+.heading {
+  font-size: 0.4rem;
+  text-align: center;
+  padding: 0.4rem;
+}
+
+.specialty .box-container .box .IMAGE {
+  width: 100%;
+  border-radius: 0.3rem;
+  margin-top: 0;
+}
+
+.box {
+  box-shadow: 3px 3px 3px gray;
+  background: white;
+  border-radius: 0.3rem;
+  position: relative;
+  cursor: pointer;
+  overflow: hidden;
+}
+
+.box .IMAGE {
+  position: absolute;
+  height: 100%;
+  object-fit: cover;
+  top: -100%;
+  left: 0;
+}
+
+.box .content {
+  text-align: center;
+  padding: 0.5rem;
+  background: #fff;
+}
+
+.box .content img {
+  margin: 0.2rem 0;
+}
+
+.box .content h3 {
+  font-size: larger;
+}
+
+.box .content p {
+  font-size: 0.35rem;
+  line-height: 0.5rem;
+  padding: 0.3rem 0;
+}
+
+.box:hover .IMAGE {
+  top: 0;
+}
+
+.box:hover .content {
+  transform: translateY(100%);
+}
+
+/*--------------specialty end---------------*/
+/* popular start */
+.popular-box {
+  background: white;
+  font-size: 0.35rem;
+  border-radius: 0.3rem;
+  margin: 0.3rem 0;
+  padding: 0.5rem;
+}
+
+.popular-box img {
+  margin-top: 0.2rem;
+  width: 100%;
+  border-radius: 0.3rem;
+}
+
+.popular-box .star i:not(:last-child) {
+  color: black;
+}
+
+.popular-box .order {
+  background: gray;
+  text-decoration: none;
+  margin-top: 0.8rem;
+  border: 1px solid gray;
+  padding: 0.2rem;
+  color: white;
+  display: block;
+  text-align: center;
+}
+
+.popular-box h3 {
+  margin: 0.2rem 0;
+}
+
+.popular-box .price {
+  color: green;
+}
+
+/* popular end */
+
+/*Step starts*/
+.step-box {
+  background: white;
+  font-size: 0.35rem;
+  border-radius: 0.3rem;
+  margin: 0.3rem 0;
+  padding: 0.5rem;
+  text-align: center;
+}
+
+/*step ends*/
+
+/*Review starts*/
+.review-box {
+  background: white;
+  font-size: 0.35rem;
+  border-radius: 0.3rem;
+  margin: 0.3rem 0;
+  padding: 0.5rem;
+}
+
+.review-box img {
+  width: 100%;
+  border-radius: 0.3rem;
+}
+
+.review-box .star {
+  color: black;
+}
+
+.review-box p {
+  line-height: 0.6rem;
+}
+
+
+/*Review ends*/
+
+/*Start Orders*/
+.order-item .row {
+  display: flex;
+  flex-direction: column;
+  box-shadow: 3px 3px 3px gray;
+  background-color: white;
+  padding: 0.2rem;
+  border-radius: 0.3rem;
+}
+
+.order-item .row img {
+  width: 100%;
+  border-radius: 0.3rem;
+  height: 120px;
+}
+
+input {
+  width: 100%;
+  height: 30px;
+  border-radius: 0.3rem;
+  border: none;
+  background: #eee;
+  color: gray;
+  padding-left: 0.1rem;
+}
+
+button[type=submit] {
+  width: 100%;
+  height: 30px;
+  color: gray;
+  background: #eee;
+  border: none;
+  border-radius: 0.3rem;
+  cursor: pointer;
+}
+
+/*End Orders*/
+
+@media screen and (min-width:750px) {
+  html {
+    font-size: 1.6rem;
+  }
+
+  .nav-btn {
+    display: none;
+  }
+
+  header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    font-size: 1.2rem;
+  }
+
+  .link-container {
+    height: 100%;
+  }
+
+  ul li {
+    display: inline-block;
+  }
+
+  ul li a {
+    position: relative;
+    font-size: 0.7rem;
+  }
+
+  ul li a::after {
+    content: "";
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 2px;
+    background-color: #999666;
+    transform: scaleX(0);
+    transition: transform 0.6s cubic-bezier(0.19, 1, 0.22, 1);
+    transform-origin: right center;
+  }
+
+  ul li a:hover:after {
+    transform: scaleX(1);
+    transform-origin: left center;
+    transition-duration: 0.4s;
+  }
+
+  ul li a:hover {
+    padding: unset;
+  }
+
+  /* ..........home..........*/
+
+  .home {
+    flex-direction: row;
+    gap: 1.5rem;
+    margin-top: 3.2rem;
+    flex-wrap: nowrap;
+    font-size: 0.8rem;
+    line-height: 1.5rem;
+    margin-left: 5%;
+    margin-right: 5%;
+  }
+
+  .home p {
+    font-size: 0.6rem;
+  }
+
+  .home .content {
+    flex: 1 1 40rem;
+  }
+
+  .home .image {
+    flex: 1 1 40rem;
+  }
+
+  .home .image img {
+    width: 100%;
+  }
+
+  .image {
+    height: 300px;
+  }
+
+  .content h4 {
+    margin-bottom: 0.5rem;
+    font-size: 0.8rem;
+  }
+
+  /* gallery */
+  .gallery h3 {
+    font-size: 1.2rem;
+  }
+
+  .gallery h4 {
+    margin-left: 5%;
+    font-size: 0.8rem;
+  }
+
+  .gallery-images {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    grid-gap: 0.2rem;
+    margin-left: 5%;
+    margin-right: 5%;
+  }
+
+}
+
+footer {
+  background-color: black;
+  font-size: 20px;
+  text-align: center;
+  margin: 0.3rem 0.2rem;
+}
+
+footer .social-media-icon {
+  cursor: pointer;
+  padding: .5rem;
+}
+
+.cl-btn {
+  height: 30px;
+  background: none;
+  margin: 0.2rem 0.2rem;
+  border: none;
+  font-size: 20px;
+}
